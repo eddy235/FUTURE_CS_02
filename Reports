@@ -1,0 +1,7 @@
+## 📸 Screenshots
+Evidence of findings can be found in `/report/screenshots/`:
+- `01_no_authentication.png` - Accessing API without any auth headers
+- `02_idor_posts_1_and_100.png` - Accessing different post IDs without restrictions
+- `03_excessive_data_users.png` - Sensitive user data exposure
+- `04_rate_limiting_test.png` - Multiple rapid requests with no blocking
+- `05_missing_security_headers.png` - Response headers missing security controls
